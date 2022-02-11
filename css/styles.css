@@ -401,8 +401,11 @@ margin: 1rem 8%;
 .sectionTwo .ourWide {
   text-align: center;
   padding-top: 50px;
-  font-size: 24px;
+ 
   margin-bottom: 45px;
+}
+.sectionTwo p{
+  font-size: 1.5rem;
 }
 .dotPulse {
   width: 65px;
