@@ -61,6 +61,7 @@ margin: 0 auto;
   max-width: 1920px;
   width: 100%;
   margin: auto;
+
 }
 .firstHeader ul {
   display: flex;
@@ -81,7 +82,7 @@ margin: 0 auto;
 /*Second Header.............................................................*/
 
 header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   z-index: 1000;
@@ -127,6 +128,7 @@ header #menu-bar {
   color: #666;
   cursor: pointer;
   display: none;
+ 
 }
 .firstHeader-hide {
   display: none;
@@ -1101,15 +1103,22 @@ margin: auto;
   line-height: 30px;
   color:white;
 }
-
-.newsletter span{
-  font-size: 16px;
+.newsletter{
+  display: flex;
+  flex-direction: column;
+}
+.newsletter a.let{
+  font-size: 18px;
 color:white;
 }
-.newsletter p{
+.newsletter a.exclusive{
   font-size: 18px;
   color:#abb7bd;
-  margin-top: 30px;
+
+}
+.newsletter a:hover{
+  color: #f5b91f;
+  transition:all .2s linear;
 }
 .containerLast{
   height:60px;
@@ -1132,7 +1141,7 @@ width:100%;
 .new{
   font-size: 14px;
   font-style: italic;
-  padding: 13px 40px 13px 15px;
+  padding: 13px 0 13px 15px;
   border-radius: 6px;
   height:50px;
   margin:auto;
@@ -1149,7 +1158,10 @@ width:100%;
 color:white;
 
 }
-
+.containerLast input.news:hover{
+  color: white;
+  transition:all .2s linear;
+}
 
 .companySegment a:hover{
   color: #f5b91f;
