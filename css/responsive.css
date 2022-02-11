@@ -24,13 +24,17 @@
 }
 
 
+
 }
 
 @media only screen and (min-width: 200px) and (max-width: 1360px) {
   .sec5DivTwo{
    margin-bottom: 80px;
    }
- 
+   .sectionTwo p{
+   width:70%;
+  margin: 0 auto;
+  }
  
   #section6 {
    margin-top: 50px;
@@ -140,6 +144,9 @@ bottom:-120%;
 
 
 @media only screen and (min-width: 200px) and (max-width: 1200px) {
+  .sectiontwo p{
+    width:70%;
+  }
   #sectionFour{
     height:500px;
   }
@@ -172,7 +179,9 @@ bottom:-120%;
 }
 
 @media only screen and (min-width: 200px) and (max-width: 1030px) {
-.franchise{
+
+
+  .franchise{
   order:1; 
  }
  .company{
@@ -201,7 +210,9 @@ text-align: center;
 
 @media only screen and (min-width: 200px) and (max-width: 991px) {
     /*first and second header START....................*/
-
+    .sectiontwo p{
+      width:70%;
+    }
     .firstHeader {
       display: none;
     }
