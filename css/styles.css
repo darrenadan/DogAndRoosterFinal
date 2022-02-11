@@ -76,6 +76,7 @@ margin: 0 auto;
 }
 .firstHeader ul li a:hover {
   background-color: #f5b91f;
+  transition:all .2s linear;
 }
 /*Second Header.............................................................*/
 
@@ -118,6 +119,7 @@ header .navbar ul li a {
 
 header .navbar ul .secondHeader-main a:hover {
   color: #f5b91f;
+  transition:all .2s linear;
 }
 
 header #menu-bar {
@@ -313,10 +315,12 @@ header #menu-bar {
 .firstButton:hover {
   color: #2d2d2d;
   background-color: white;
+  transition:all .2s linear;
 }
 .secondButton:hover {
   color: #2d2d2d;
   background-color: white;
+  transition:all .2s linear;
 }
 /*........................................................SectionTwo..................................................................*/
 /*........................................................SectionTwo..................................................................*/
@@ -631,6 +635,7 @@ p.Lorem {
 .exploreButton a:hover {
   background-color: #f5b91f;
   color: white;
+  transition:all .2s linear;
 }
 
 
@@ -672,6 +677,7 @@ div.play {
 div.play:hover {
   border-color: #477993;
   background-color: #f5b91f;
+  transition:all .2s linear;
 }
 p.mostPeople {
   width: 420px;
@@ -711,6 +717,7 @@ p.mostPeople {
   background-color: #f5b91f;
   color: white;
   border-color: #477993;
+  transition:all .2s linear;
 }
 
 
@@ -889,6 +896,7 @@ p.mostPeople {
     
     .owl-text-overlay a:hover{
       background-color:#f5b91f;
+      transition:all .2s linear;
     }
     .testimonials{
     z-index:999;
@@ -904,8 +912,10 @@ p.mostPeople {
       margin-right: 5px;
     }
     .testimonials  a:hover{
-    text-decoration: underline;
+    color: #f5b91f;
+    transition:all .2s linear;
     }
+ 
       /*overlay text in owl carousel END*/
     
     /*picture and dots slider*/
@@ -953,6 +963,8 @@ p.mostPeople {
     /*side nav arrows*/
     .rightandleft:hover {
       margin-bottom: 0px;
+      color: #f5b91f;
+      transition:all .2s linear;
     }
     div.owl-nav{
       width:0;
@@ -1008,6 +1020,7 @@ text-decoration: none;
     }
     .sec5DivTwo a:hover{
     color:white;
+    transition:all .2s linear;
     }
     .sec5DivTwo{
      margin-top: 30px;
@@ -1137,8 +1150,14 @@ color:white;
 }
 
 
-
-
+.companySegment a:hover{
+  color: #f5b91f;
+  transition:all .2s linear;
+}
+.socialMedia i:hover{
+  color: #f5b91f;
+  transition:all .2s linear;
+}
 
 
 
