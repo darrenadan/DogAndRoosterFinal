@@ -47,10 +47,16 @@
 }
 
 
-
 }
 
 @media only screen and (min-width: 200px) and (max-width: 1360px) {
+  .productSection {
+    margin-bottom:30px;
+  }
+  
+  
+  
+  
   .sec5DivTwo{
    margin-bottom: 80px;
    }
@@ -198,6 +204,7 @@ bottom:-120%;
   }
   #section6 {
     margin-top: 50px;
+   
    }
 }
 
@@ -238,7 +245,6 @@ bottom:-120%;
 
 @media only screen and (min-width: 200px) and (max-width: 1030px) {
 
-
   .franchise{
   order:1; 
  }
@@ -261,6 +267,7 @@ text-align: center;
 }
 #section6 {
   margin-top: 50px;
+  height:900px;
  }
 }
 
@@ -271,6 +278,7 @@ text-align: center;
     .sectiontwo p{
       width:70%;
     }
+
     .firstHeader {
       display: none;
     }
@@ -588,6 +596,10 @@ bottom:-150%;
  .containerLast{
    width:80.5%;
    margin:0 auto;
+ }
+ #section6 {
+  margin-top: 50px;
+  height:940px;
  }
     }
   
