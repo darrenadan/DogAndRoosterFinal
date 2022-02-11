@@ -661,7 +661,12 @@ text-align: center;
 p.ArchSupport {
   font-size: 1rem;
 }
-
+.play img{
+  width:6px;
+}
+div.play {
+  padding: 3px 3px 3px 1px;
+}
 
 
 
