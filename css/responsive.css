@@ -27,6 +27,15 @@
 }
 
 @media only screen and (min-width: 200px) and (max-width: 1360px) {
+  .sec5DivTwo{
+   margin-bottom: 50px;
+   }
+ 
+ 
+  #section6 {
+   margin-top: 50px;
+  }
+  
   #sectionFour{
     height:580px;
   }
@@ -109,8 +118,10 @@ bottom:-120%;
 .sec5DivTwo,.s5Left,.s5Right{
   flex-direction: column;
 }
-
-
+.s3LeftInner {
+  margin-bottom: 25px;
+}
+}
 
 
 
@@ -155,7 +166,9 @@ bottom:-120%;
     width: 600px;
     height: 350px;
   }
-
+  #section6 {
+    margin-top: 50px;
+   }
 }
 
 @media only screen and (min-width: 200px) and (max-width: 1030px) {
@@ -179,6 +192,9 @@ text-align: center;
 .socialMedia{
   margin-top: 3rem;
 }
+#section6 {
+  margin-top: 50px;
+ }
 }
 
 /*TABLET LAY-OUT*/
@@ -347,6 +363,7 @@ text-align: center;
 display: flex;
 justify-content: center;
 gap:1rem;
+margin-bottom: 50px;
 }
 .learnMore{
 display: flex;
@@ -496,7 +513,9 @@ bottom:-150%;
  #section6 {
   height:720px;
 }
-
+#section6 {
+  margin-top: 50px;
+ }
     }
   
 @media only screen and (min-width: 531px) and (max-width: 900px) {
@@ -548,7 +567,9 @@ bottom:-150%;
  .reviews{
  order: 2;
  }
-
+ #section6 {
+  margin-top: 50px;
+ }
 }
   
 
@@ -556,6 +577,9 @@ bottom:-150%;
       .containerFour {
         max-width: 600px;
       }
+      #section6 {
+        margin-top: 50px;
+       }
     }
 
 
@@ -714,7 +738,9 @@ bottom:-120%;
   margin: -30px 7px;
 
 }
-
+#section6 {
+  margin-top: 50px;
+ }
 
 }
   
@@ -855,7 +881,6 @@ margin-left:6%;
 margin-top: 20px;
   }
   .s3Left img{
-    width:40%;
     margin:0 auto;
     display:block;
   }
@@ -863,6 +888,8 @@ margin-top: 20px;
 display:flex;
 flex-direction: column;
 justify-items: center;
+gap:20px;
+margin-bottom: 10px;
   }
   p.ArchSupport {
     font-size: 16px;
@@ -874,19 +901,15 @@ justify-items: center;
 
 bottom:0px;
 left:8%;
-padding:3px 1px;
+padding:3px 6px 3px 8px;
   }
   .learnMore{
     padding: 5px 10px;
 text-align: center;
-
+margin-bottom: -40px;
   }
   .learnMore a{
     font-size: .75rem;
-  }
-  .learnMore{
-    bottom:-40px;
-    left:30%;
   }
   .buttonSeven .bulletSeven {
     width: 40px;
@@ -934,13 +957,21 @@ text-align: center;
 .s3Left h3{
   padding-top: 0;
 }
+#section6 {
+  margin-top: 50px;
+ }
 }
   
   
   
   
 @media only screen and (min-width: 500px) and (max-width: 768px) {
-
+  .s3LeftInner{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    margin-bottom: 40px;
+    }
   .arrows span {
     z-index: 10;
     top: 90%;
@@ -962,7 +993,6 @@ text-align: center;
 .containerFour {
   max-width: 550px;
   width:100%;
-
   height: 250px;
 }
 .owl-carousel {
@@ -975,6 +1005,9 @@ width:100%;
   width: 600px;
   height: 200px;
 }
+#section6 {
+  margin-top: 50px;
+ }
 }
 
 
@@ -1004,7 +1037,9 @@ width:100%;
     width: 600px;
     height: 170px;
   }
-
+  #section6 {
+    margin-top: 50px;
+   }
 }
 
 @media only screen and (min-width: 500px) and (max-width: 646px) {
@@ -1014,7 +1049,9 @@ width:100%;
 #sectionFour{
   height:250px;
 }
-
+#section6 {
+  margin-top: 50px;
+ }
 
 .owl-text-overlay {
   position: absolute;
@@ -1096,6 +1133,9 @@ bottom:-120%;
   #section6 {
     height:980px;
   }
+  #section6 {
+    margin-top: 50px;
+   }
 }
 
 @media only screen and (min-width: 500px) and (max-width: 546px) {
@@ -1104,9 +1144,14 @@ bottom:-120%;
     left:11%;
 }
 #section6 {
+  margin-top: 50px;
+ }
+#section6 {
   height:980px;
 }
-
+#section6 {
+  margin-top: 50px;
+ }
 }
 }
 
@@ -1114,6 +1159,9 @@ bottom:-120%;
   #section6 {
     height:980px;
   }
+  #section6 {
+    margin-top: 50px;
+   }
 }
 
 
@@ -1158,7 +1206,9 @@ bottom:-120%;
   .reviews{
   order: 2;
   }
-
+  #section6 {
+    margin-top: 50px;
+   }
 }
 
 @media only screen and (min-width: 200px) and (max-width: 490px) {
@@ -1335,6 +1385,9 @@ bottom:-120%;
   margin-left: 7px;
   margin-bottom: 1px;
 }
+#section6 {
+  margin-top: 25px;
+ }
 }
 
 @media only screen and (min-width: 200px) and (max-width: 420px) {
@@ -1460,7 +1513,9 @@ bottom:-120%;
     right:5px;
     bottom:9%;
     }
-
+    #section6 {
+      margin-top: 25px;
+     }
   }
 
 
@@ -1570,7 +1625,9 @@ bottom:-120%;
     }
 
 
-
+    #section6 {
+      margin-top: 50px;
+     }
 
 
 
@@ -1706,5 +1763,7 @@ bottom:-120%;
 #section6{
   height:730px;
 }
-
+#section6 {
+  margin-top: 50px;
+ }
   }
