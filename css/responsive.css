@@ -511,7 +511,7 @@ bottom:-150%;
    font-size: 2.5rem;
  }
  #section6 {
-  height:720px;
+  height:750px;
 }
 #section6 {
   margin-top: 50px;
@@ -551,7 +551,7 @@ bottom:-150%;
     margin-bottom: 1rem;
   }
   #section6 {
-   height:950px;
+   height:980px;
 }
 .companySegment{
   flex-direction: column;
@@ -1195,7 +1195,7 @@ bottom:-120%;
     margin-bottom: 3rem;
   }
   #section6 {
-    height:910px;
+    height:940px;
  }
  .companySegment{
    flex-direction: column;
@@ -1214,6 +1214,7 @@ bottom:-120%;
   #section6 {
     margin-top: 50px;
    }
+
 }
 
 @media only screen and (min-width: 200px) and (max-width: 490px) {
@@ -1392,7 +1393,9 @@ bottom:-120%;
 }
 #section6 {
   margin-top: 25px;
+  height:750px;
  }
+
 }
 
 @media only screen and (min-width: 200px) and (max-width: 420px) {
@@ -1766,9 +1769,8 @@ bottom:-120%;
 
   @media only screen and (min-width: 200px) and (max-width: 290px) {
 #section6{
-  height:730px;
-}
-#section6 {
+  height:790px;
   margin-top: 50px;
- }
+}
+
   }
