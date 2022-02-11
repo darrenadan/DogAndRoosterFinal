@@ -81,7 +81,7 @@ margin: 0 auto;
 /*Second Header.............................................................*/
 
 header {
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
@@ -798,9 +798,10 @@ p.mostPeople {
   max-width:600px;
   width:100%;
 }
+#storeVsitID{
+  width:.1px;
 
-
-
+}
 
 
 
