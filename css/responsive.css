@@ -1287,7 +1287,7 @@ bottom:-120%;
     }
     .testimonials{
       right:10%;
-      bottom:9%;
+      bottom:5%;
       }
       #sectionFive h2{
         font-size: 2.5rem;
@@ -1303,9 +1303,12 @@ bottom:-120%;
    .companySegment{
     margin-top: 30px;
    }
-   footer p,a{
+   footer p{
      font-size: .75rem;
    }
+   footer a{
+    font-size: .75rem;
+  }
    footer span{
     font-size: .75rem;
     margin-top: 5px;
@@ -1323,6 +1326,14 @@ bottom:-120%;
   font-size: 13px;
   line-height: 25px;
   color:white;
+}
+.arrowTwo {
+  border: solid #f3af1d;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 1px;
+  margin-left: 7px;
+  margin-bottom: 1px;
 }
 }
 
@@ -1689,4 +1700,11 @@ bottom:-120%;
     margin: -15px 1px;
   
   }
+  }
+
+  @media only screen and (min-width: 200px) and (max-width: 290px) {
+#section6{
+  height:730px;
+}
+
   }
