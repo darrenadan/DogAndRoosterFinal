@@ -1,0 +1,1200 @@
+/*Templates*/
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  /*text-transform: capitalize;*/
+  /*transition:all .2s linear;                     affects the slicarousel*/
+}
+html::-webkit-scrollbar {
+  width: 1.4rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #333;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--yellow);
+}
+#LineBreak::after{
+  content: "\a";
+  white-space: pre;
+}
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4.6875rem;
+}
+
+
+p {
+  font-size: 1.5rem;
+}
+
+/*section {
+  min-height: 100vh;
+  padding: 1rem 10%; 
+  padding-top: 8.5rem;
+}*/
+.wrap{
+max-width: 1920px;
+width: 85%;
+margin: 0 auto;
+}
+
+
+.firstHeader {
+  height: 3.0625rem;
+  background-color: #487a93;
+  display: flex;
+  align-content: center;
+  justify-content: end;
+  padding: 0 8%;
+  position: relative;
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+}
+.firstHeader ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  list-style: none;
+  background-color: #3b5c6d;
+}
+.firstHeader ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 1.25rem 2.875rem;
+}
+.firstHeader ul li a:hover {
+  background-color: #f5b91f;
+}
+/*Second Header.............................................................*/
+
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  background: #fff;
+  padding: 0 8%;
+  box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6.4375rem;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+header .logo img {
+  height: 6rem;
+}
+
+header .navbar ul {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  list-style: none;
+}
+
+header .navbar ul li {
+  margin-left: 3rem;
+}
+
+header .navbar ul li a {
+  font-size: 1.125rem;
+  color: #666;
+}
+
+header .navbar ul .secondHeader-main a:hover {
+  color: #f5b91f;
+}
+
+header #menu-bar {
+  font-size: 3rem;
+  color: #666;
+  cursor: pointer;
+  display: none;
+}
+.firstHeader-hide {
+  display: none;
+}
+.calendarImg {
+  color: white;
+}
+.fa-calendar-alt {
+  margin-right: 1.5625rem;
+}
+
+.arrowRight {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 0.1875rem 0.1875rem 0;
+  display: inline-block;
+  padding: 0.1875rem;
+  margin-left: 0.625rem;
+  position: relative;
+}
+.firstHeader-bg {
+  background-color: #3b5c6d;
+  padding: 10px;
+  margin: 0;
+}
+
+/*........................................................SectionOne with slider..................................................................*/
+.containerSlider {
+  display: block;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.the_slider {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  max-width: 1920px;
+}
+.the_slider .s_slide {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  width: 100%;
+  float: left;
+}
+.rt-container {
+  position: relative;
+}
+.the_slider .s_slider_container {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 47.5rem;
+  cursor: pointer;
+}
+
+.the_slider .s_slider_container:active {
+  cursor: -webkit-grabbing;
+}
+
+.the_slider .s_slide_0 {
+  background-image: url("../images/backgroundOne.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  height: 100%;
+  background-position: center;
+  max-width: 1920px;
+  width: 100%;
+}
+
+.the_slider .s_slide_1 {
+  background-image: url("../images/sliderPicTwo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  height: 100%;
+  background-position: center;
+  max-width: 1920px;
+  width: 100%;
+  background-size: contain;
+}
+
+.the_slider .s_slide_2 {
+  background-image: url("../images/sliderPicFour.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  height: 100%;
+  background-position: center;
+  max-width: 1920px;
+  width: 100%;
+  background-size: contain;
+}
+
+.the_slider .s_slide_3 {
+  background-image: url("../images/sliderPicThree.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  height: 100%;
+  background-position: center;
+  max-width: 1920px;
+  width: 100%;
+  background-size: contain;
+}
+
+.the_slider .s_slide_4 {
+  background-image: url("../images/sliderPicOne.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  height: 100%;
+  background-position: center;
+  max-width: 1920px;
+  width: 100%;
+  background-size: contain;
+}
+/*........................................................SectionOne with Content..................................................................*/
+.sectionOneContentParent {
+  position: relative;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+.sectionOneContent {
+  position: absolute;
+  top: 14rem;
+  left: 7rem;
+}
+.sectionOneContent h3 {
+  color: white;
+  font-size: 1.875rem;
+}
+.sectionOneContent h1 {
+  color: #ffffff;
+}
+.sectionOneContent h2 {
+  color: white;
+  font-weight: normal;
+  line-height: 4.25rem;
+  letter-spacing: 0.25rem;
+}
+.ourProducts p {
+  color: white;
+  font-size: 1rem;
+}
+.ourProducts .firstButton {
+  position: absolute;
+  top: 66.5%;
+  left: 7.5rem;
+  padding: 5px 50px;
+  background-color: inherit;
+  border-style: solid;
+  border-color: white;
+  display: inline-block;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.ourProducts .secondButton {
+  position: absolute;
+  top: 66.5%;
+  left: 23.5rem;
+  padding: 5px 50px;
+  background-color: inherit;
+  border-style: solid;
+  border-color: white;
+  display: inline-block;
+  border-radius: 0.375rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.firstButton:hover {
+  color: #2d2d2d;
+  background-color: white;
+}
+.secondButton:hover {
+  color: #2d2d2d;
+  background-color: white;
+}
+/*........................................................SectionTwo..................................................................*/
+/*........................................................SectionTwo..................................................................*/
+/*......................Three Columns.....................*/
+#sectionTwo {
+  padding: 1rem 8%;
+  padding-top: 0;
+}
+#threeColumns {
+  margin-top: 50px;
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+}
+#threeColumns img {
+  float: left;
+  margin-right: 25px;
+}
+#threeColumns h3 {
+  display: inline-block;
+  text-align: center;
+  font-size:1.1875rem;
+}
+
+#threeColumns p {
+  font-size: 1rem;
+  padding-right: 0;
+  text-align: justify;
+  margin-top:10px;
+}
+
+hr {
+  margin-top: 45px;
+  height:2px;
+background-color: #d8d8d8;
+margin: 1rem 8%;
+}
+.hrTwo{
+  margin-top: 70px;
+  margin-bottom: 160px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.......Product Part_section 2*/
+.sectionTwo {
+  height: auto;
+  background-color: white;
+  padding-top: 105px;
+}
+.sectionTwo {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.sectionTwo h1 {
+  text-align: center;
+  font-size: 4.6875rem;;
+  color: #464646;
+}
+.sectionTwo .personally {
+  text-decoration: underline;
+  text-decoration-color: #f5b91f;
+}
+.sectionTwo .ourWide {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 24px;
+  margin-bottom: 45px;
+}
+.dotPulse {
+  width: 65px;
+  height: 65px;
+  background-color: #386882;
+  margin: 20px;
+  border-radius: 90%;
+  box-shadow: inset 0px 0px 0px 25px whitesmoke;
+  opacity: 65%;
+}
+.buttonDiv {
+  position: absolute;
+}
+.popup {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0px;
+}
+.popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+.productSection button {
+  animation: pulse 1s infinite;
+  transition: 0.3s;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+button {
+  border-style: none;
+}
+/*strategy in responsive positioning of bullets:create a div as parent of img and bullets, crop the full width of image */
+.productSection {
+  height: auto;
+  max-width: 1920px;
+  width: 100%;
+  position: relative;
+}
+.productSection img {
+  height: auto;
+  max-width: 1920px;
+  width: 100%;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+p.Lorem {
+  padding-top: 0px;
+  font-size: 1rem;
+}
+
+.buttonOne {
+  position: absolute;
+  z-index: 1;
+  left: 25%;
+  bottom: 35%;
+}
+.buttonOne .bulletFirst {
+  visibility: hidden;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -45px;
+  margin-bottom: 100px;
+  box-shadow: 2px 3px 5px #999;
+}
+
+.buttonTwo {
+  position: absolute;
+  z-index: 1;
+  left: 35%;
+  bottom: 48%;
+}
+.buttonTwo .bulletSecond {
+  visibility: hidden;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -50px;
+  margin-bottom: 100px;
+  box-shadow: 2px 3px 5px #999;
+}
+
+.buttonThree {
+  position: absolute;
+  z-index: 1;
+  left: 40%;
+  bottom: 52%;
+}
+.buttonThree .bulletThird {
+  visibility: hidden;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -50px;
+  margin-bottom: 100px;
+  box-shadow: 2px 3px 5px #999;
+}
+
+.buttonFour {
+  position: absolute;
+  z-index: 1;
+  left: 40%;
+  bottom: 32%;
+}
+.buttonFour .bulletFour {
+  visibility: hidden;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -50px;
+  margin-bottom: 100px;
+  box-shadow: 2px 3px 5px #999;
+}
+
+.buttonFive {
+  position: absolute;
+  z-index: 1;
+  left: 56%;
+  bottom: 23%;
+}
+.buttonFive .bulletFive {
+  visibility: hidden;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -50px;
+  margin-bottom: 100px;
+  box-shadow: 2px 3px 5px #999;
+}
+
+.buttonSix {
+  position: absolute;
+  z-index: 1;
+  left: 65.5%;
+  bottom: 34%;
+}
+.buttonSix .bulletSix {
+  visibility: hidden;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -50px;
+  margin-bottom: 100px;
+  box-shadow: 2px 3px 5px #999;
+}
+/*Button*/
+.exploreButton {
+  margin-top: 35px;
+}
+.exploreButton a {
+  padding: 10px 30px;
+  border-style: solid;
+  border-width: 1;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 16px;
+  border-color: #487a93;
+  font-weight: 500;
+}
+.exploreButton a:hover {
+  background-color: #f5b91f;
+  color: white;
+}
+
+
+/*Section Three.........................................................*/
+.s3Container {
+  display: flex;
+  justify-content: space-around;
+  gap: 13%;
+  margin-bottom: 60px;
+}
+.s3Left #LbreakOne {
+  text-decoration: underline;
+  text-decoration-color: #f5b91f;
+}
+.s3Left #LbreakOne ::before{
+  content: "\a";
+  white-space: pre;
+}
+.s3Left h3 {
+  font-size: 4.6875rem;
+  color:#464646;
+ 
+}
+.s3Left p {
+  font-size: 1.5rem;
+
+}
+p.ArchSupport {
+  font-size: 1rem;
+}
+div.play {
+
+  padding: 5px 5px 3px 7px;
+  border-color: #477993;
+  border-style: solid;
+  border-radius: 100%;
+  border-width: 1px;
+}
+div.play:hover {
+  border-color: #477993;
+  background-color: #f5b91f;
+}
+p.mostPeople {
+  width: 420px;
+  margin-top:50px ;
+  margin-bottom: 30px;
+}
+.s3LeftInner {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.s3Right {
+  max-width: 600px;
+  width: 100%;
+  position: relative;
+}
+.s3Right button {
+  animation: pulse 1s infinite;
+  transition: 0.3s;
+}
+.s3Right img {
+  height: 600px;
+}
+
+.learnMore a {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 6px 40px;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+}
+.learnMore a:hover {
+  background-color: #f5b91f;
+  color: white;
+  border-color: #477993;
+}
+
+
+
+/*Part 3 : leg image with bullets*/
+.buttonSeven {
+  position: absolute;
+  z-index: 1;
+  left: 35.5%;
+  bottom: 10%;
+}
+.buttonSeven .bulletSeven{
+  visibility: hidden;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -45px;
+  margin-bottom: 100px;
+  box-shadow: 2px 3px 5px #999;
+}
+
+.buttonEight {
+  position: absolute;
+  z-index: 1;
+  left: 29%;
+  bottom: 54%;
+}
+.buttonEight .bulletEight {
+  visibility: hidden;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -45px;
+  margin-bottom: 100px;
+  box-shadow: 2px 3px 5px #999;
+}
+
+.buttonNine {
+  position: absolute;
+  z-index: 1;
+  left: 56%;
+  bottom: 83%;
+}
+.buttonNine .bulletNine {
+  visibility: hidden;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -45px;
+  margin-bottom: 100px;
+  box-shadow: 2px 3px 5px #999;
+}
+.legPicture{
+  max-width:600px;
+  width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    /*........................................................SectionFour..................................................................*/
+    #sectionFour{
+      height:680px;
+      position:relative;
+      background-color:#e3e1df;
+    max-width: 1920px;
+    width:100%;
+    margin: 0 auto;
+ 
+  
+    }
+    
+    #sectionFour .beautifulMomParent img{
+      position:absolute;
+      max-width: 600px;
+    width:100%;
+    left:10%;
+    top:8%;
+    z-index:2;
+    }
+    .contentAndOwlParent{
+      position:relative;
+    }
+    .beautifulMomParent{
+      max-width: 600px;
+    width:100%;
+    }
+    .owlCParent{
+      position:relative;
+    }
+    
+    .containerFour {
+      position: relative;
+      margin: 0 auto;
+      width: 1100px;
+      height: 490px;
+    }
+    
+    .containerFour img {
+      width: 680px;
+      height: 490px;
+    }
+    
+    .owl-carousel {
+      max-width: 900px;
+      width:100%;
+    position: absolute;
+    top:22%;
+    right: 0rem;
+    }
+    
+    .jquery {
+      position: absolute;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 5rem .5rem;
+      display: inline-block;
+    }
+    
+      /*overlay text in owl carousel*/
+    .owl-text-overlay {
+      position: absolute;
+      text-align: center;
+      width: 60%;
+      top: 15%;
+      right:1%;
+    }
+    .owl-text-overlay h3{
+      font-size: 2.4375rem;
+      color: #4b4b4b;
+    }
+    .owl-text-overlay a{
+      font-size: 1rem;
+      padding:15px 30px;
+      border:solid #487a93;
+      border-radius:6px;
+      text-decoration: none;
+      color:#202020;
+      position: absolute;
+     left:15%;
+    bottom:-150%;
+      }
+    
+    
+    .owl-text-overlay a:hover{
+      background-color:#f5b91f;
+    }
+    .testimonials{
+    z-index:999;
+    position:absolute;
+    bottom:5%;
+    right:14%;
+    }
+  
+    .testimonials  a{
+      text-decoration: none;
+      font-size:1.125rem;
+      color:black;
+      margin-right: 5px;
+    }
+    .testimonials  a:hover{
+    text-decoration: underline;
+    }
+      /*overlay text in owl carousel END*/
+    
+    /*picture and dots slider*/
+    .jquery .owl-carousel{
+      position: relative;
+      left: 59%;
+      top: 220px;
+    }
+    
+    /*picture and dots slider*/
+    /*side nav arrows*/
+    /*.custom-nav {
+      position: absolute;
+      left: 0;
+      right: 0;
+      width:90%;
+    }*/
+    
+    .owl-prev, .owl-next {
+      position: absolute;
+      color: inherit;
+      bottom: -30px;
+    }
+    
+    .owl-next {
+      left:12.5rem;
+      position: absolute;
+      bottom:5.5px;
+      padding: 20px;
+      border-style: solid;
+      border-color: white;
+      border-width: 10px;
+      width:15px;
+    }
+    
+    .owl-prev {
+      left: 8.5rem;
+      position: absolute;
+      bottom:5.5px;
+      width:15px;
+    z-index:2px;
+    
+    }
+    
+    /*side nav arrows*/
+    .rightandleft:hover {
+      margin-bottom: 0px;
+    }
+    div.owl-nav{
+      width:0;
+    
+    }
+
+
+
+
+
+
+
+
+           /*section 5*/
+         #sectionFive{
+           position: relative;
+         }
+     .sec5DivOne h2{
+      font-size:4.6875rem;
+      text-align: center;
+      color: #4b4b4b;
+      margin-top: 135px;
+      text-decoration: none;
+    }
+    .sec5DivOne span{
+      text-decoration:underline ;
+      text-decoration-color: #f3af1d;
+    }
+    .sec5DivOne p{
+    font-size:1.875rem;
+    text-align: center;
+    margin-top: 65px;
+    }
+
+
+    .sec5DivTwo{
+    display:flex;
+    justify-content: center;
+    gap:5%;
+    position: relative;
+    }
+  
+
+    .sec5DivTwo a{
+text-decoration: none;
+     display:inline-block;
+    
+      border-style: none;
+     border-width: 1;
+    background-color: #f3af1d;
+    border-radius: 6px;
+    padding:6px 16px;
+    }
+    .sec5DivTwo a:hover{
+    color:white;
+    }
+    .sec5DivTwo{
+     margin-top: 30px;
+     text-align: center;
+    margin-bottom: 125px;
+    }
+    .s5Left,.s5Right {
+      display:flex;
+      align-items: center;
+    }
+    .s5Left a{
+    font-size: .5rem;
+    }
+    .s5Left p{
+      font-size: 1.125rem;
+      }
+    .s5Right p{
+      font-size: 1.125rem;
+      }
+    .s5Left .fa-arrow-right{
+      margin-left: 10px;
+    }
+
+  
+    .s5Right .fa-arrow-right{
+      margin-left: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*Section 6.................................................................*/
+    /* section6*/
+#section6 {
+  background-color: #487a93;
+  max-width:1920px;
+  width:100%;
+ height:468px;
+ margin-top: 100px;
+margin: auto;
+}
+.sec61{
+  display:flex;
+  justify-content: space-between;
+  padding-top:70px;
+}
+.companySegment{
+  display:flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.franchise a{
+  font-size: 18px;
+  line-height: 30px;
+  color:white;
+}
+.company h3{
+  font-size: 3.8rem;
+}
+.reviews a{
+  font-size: 18px;
+  line-height: 30px;
+  color:white;
+}
+
+.newsletter span{
+  font-size: 16px;
+color:white;
+}
+.newsletter p{
+  font-size: 18px;
+  color:#abb7bd;
+  margin-top: 30px;
+}
+.containerLast{
+  height:60px;
+  margin-top: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.form{
+width:100%;
+}
+
+.news{
+  background-color:#efaf21;
+  font-size: 16px;
+  padding:13px 13px;
+  height:50px;
+  border-radius: 6px;
+  margin-top: 3.7px;
+}
+.new{
+  font-size: 14px;
+  font-style: italic;
+  padding: 13px 40px 13px 15px;
+  border-radius: 6px;
+  height:50px;
+  margin:auto;
+}
+#section6 .thirdHr{
+  height:1px;
+  width:100%;
+  background-color: #2d4e5f;
+  margin-top:60px;
+  border: none;
+}
+.com{
+  display:inline-block;
+color:white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.socialMedia{
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 2.5rem;
+}
+.socialMedia a{
+  color:white;
+  margin:.5rem;
+}
+
+footer{
+  height:82px;
+display:flex;
+flex-wrap:wrap;
+
+justify-content: start;
+}
+footer p{
+  font-size: 16px;
+  margin-top: 10px;
+  
+}
+footer a{
+  text-decoration: none;
+  font-size: 16px;
+}
+footer span{
+  display:flex;
+ margin-top: 20px;
+ font-size:17px ;
+ color:red;
+font-weight: bolder;
+}
+.arrowDown {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+
+}
+.arrowTwo {
+  border: solid #f3af1d;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 7px;
+  margin-bottom: 3px;
+}
+.international{
+  margin:0 10px
+}
